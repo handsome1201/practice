@@ -2,7 +2,7 @@ package practice4;
 
 import java.util.Scanner;
 
-public class num9 {
+public class num10 {
 
 	public static void main(String[] args) {
 		Scanner a = new Scanner(System.in);
@@ -10,7 +10,7 @@ public class num9 {
 		System.out.println("´Ü¼ö´Â?:");
 		int x = a.nextInt();
 		
-		for(int i = x; i>0; i--) {
+		for(int i = 1; i<=x; i++) {
 			for(int j = i; j>0; j--) {
 				System.out.print("*");
 			}

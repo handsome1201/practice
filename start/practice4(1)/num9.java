@@ -10,7 +10,7 @@ public class num9 {
 		System.out.println("´Ü¼ö´Â?:");
 		int x = a.nextInt();
 		
-		for(int i = x; i>0; i--) {
+		for(int i = 1; i<=x; i++) {
 			for(int j = i; j>0; j--) {
 				System.out.print("*");
 			}
